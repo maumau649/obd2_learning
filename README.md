@@ -1,35 +1,5 @@
 # Fahrzeug-Simulator
 
-## Projektstruktur
-
-```
-fahrzeug-simulator/
-├── main.py                          # Hauptprogramm (STARTEN)
-├── car_simulator_no_handbrake.ino   # Arduino Code (UPLOADEN)
-│
-├── config/
-│   ├── __init__.py
-│   └── settings.py                  # Konfiguration
-│
-├── communication/
-│   ├── __init__.py
-│   └── serial_handler.py            # Arduino-Kommunikation
-│
-├── models/
-│   ├── __init__.py
-│   └── vehicle.py                   # Fahrzeugdaten
-│
-├── input/
-│   ├── __init__.py
-│   └── keyboard_handler.py          # Tastatur-Eingaben
-│
-├── gui/
-│   ├── __init__.py
-│   └── dashboard.py                 # Hauptdashboard
-│
-└── README.md                        # Diese Anleitung
-```
-
 ## Installation & Start
 
 ### 1. Arduino vorbereiten
@@ -57,11 +27,11 @@ python main.py
 - **→** = Hochschalten
 
 ## Features
-✅ **Kontinuierliches Gas** - Taste halten = dauerhaft Gas
-✅ **Modulare Struktur** - Übersichtlicher Code
-✅ **Sofortige RPM-Reaktion** - Kein Lag
-✅ **5-Gang Schaltung** - Realistische Übersetzungen
-✅ **Farbcodierte RPM** - Grün → Gelb → Orange → Rot
+**Kontinuierliches Gas** - Taste halten = dauerhaft Gas
+**Modulare Struktur** - Übersichtlicher Code
+**Sofortige RPM-Reaktion** - Kein Lag
+**5-Gang Schaltung** - Realistische Übersetzungen
+**Farbcodierte RPM** - Grün → Gelb → Orange → Rot
 
 ## Konfiguration
 Alle Einstellungen in `config/settings.py`:
